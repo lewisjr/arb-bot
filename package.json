@@ -1,0 +1,30 @@
+{
+	"name": "illuminatus",
+	"version": "0.1.0",
+	"scripts": {
+		"build": "yarn hardhat compile",
+		"deploy": "npx hardhat run scripts/deploy.ts --network polygon",
+		"dev": "ts-node ./scripts/arbBot.ts"
+	},
+	"keywords": [],
+	"license": "MIT",
+	"devDependencies": {
+		"@types/chai": "^5.2.1",
+		"@types/jest": "^29.5.14",
+		"@types/node": "^22.14.1",
+		"chai": "^5.2.0",
+		"hardhat": "^2.23.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"@aave/core-v3": "^1.19.3",
+		"@cerebrusinc/qol": "^1.2.1",
+		"@nomicfoundation/hardhat-ignition": "^0.15.11",
+		"@nomicfoundation/hardhat-toolbox": "^5.0.0",
+		"@nomiclabs/hardhat-ethers": "^2.2.3",
+		"@openzeppelin/contracts": "^5.3.0",
+		"dotenv": "^16.5.0",
+		"ethers": "^5.8.0"
+	}
+}
