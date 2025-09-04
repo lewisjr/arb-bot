@@ -1,10 +1,10 @@
 {
 	"name": "illuminatus",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"scripts": {
 		"build": "yarn hardhat compile",
 		"deploy": "npx hardhat run scripts/deploy.ts --network polygon",
-		"dev": "ts-node ./scripts/arbBot.ts"
+		"dev": "ts-node ./scripts/arbBotv2.ts"
 	},
 	"keywords": [],
 	"license": "MIT",
